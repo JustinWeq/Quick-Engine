@@ -134,6 +134,16 @@
     <Text Include="ReadMe.txt" />
     <Text Include="test.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="App.h" />
+    <ClCompile Include="FlyCam.cpp" />
+    <ClCompile Include="Frustrum.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FlyCam.h" />
+    <ClInclude Include="Frustrum.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

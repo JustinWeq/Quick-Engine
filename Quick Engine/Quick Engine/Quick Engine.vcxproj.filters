@@ -13,11 +13,69 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Application">
+      <UniqueIdentifier>{337bd69b-ee08-4a89-aea1-1b456ea11071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{ca8aa889-aad9-4b0e-850d-b273d4236055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{71a8abaf-6f14-48d4-91d3-658fa56b90f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics2D">
+      <UniqueIdentifier>{1e8428b3-f0d1-4ce3-af62-fa496367ea27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui">
+      <UniqueIdentifier>{c23368b8-3916-4673-9fa6-b7452e322cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{35fbc4bd-fd2d-4e2d-ad34-6b00d4e61028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{d2c58d2f-446a-4694-977b-18c9095ae547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics">
+      <UniqueIdentifier>{d979d923-3512-4e53-8503-b6ce5f7a4ae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player">
+      <UniqueIdentifier>{873f9ef6-d20f-40d7-92bf-81995c3e471a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound">
+      <UniqueIdentifier>{7e4508c4-86c8-464e-944f-b7759760d9c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Terrain">
+      <UniqueIdentifier>{425dfe18-e294-44ed-93b1-2cd7b5ebbf8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{f938bc77-1a29-4c26-8256-d3573c6869a0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
     <Text Include="test.txt">
       <Filter>Source Files</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="App.h">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyCam.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Frustrum.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FlyCam.h">
+      <Filter>Source Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustrum.h">
+      <Filter>Source Files\Camera</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
